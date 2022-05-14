@@ -1,0 +1,2 @@
+*.bed filter=lfs diff=lfs merge=lfs -text
+1KGPApril2016NewMapAutoChr2.bed filter=lfs diff=lfs merge=lfs -text
