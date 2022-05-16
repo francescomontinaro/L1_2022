@@ -116,6 +116,15 @@ fstAnnotated$pos=gsub(pattern = "2_",replacement = "",fstAnnotated$pos)
 
 #plot(fstAnnotated[fstAnnotated$pos %in% 130e6:140e6,2],type="l")
 
-plot(fstAnnotated$pos,fstAnnotated$fst,pch=19)
+#plot(fstAnnotated$pos,fstAnnotated$fst,pch=19)
+
+s <- ggplot(fstAnnotated)+
+  geom_point(aes(x=as.numeric(pos),y=fst,col=fst))+
+  theme_minimal()+
+  scale_color_gradient2(low = "navy",mid = "yellow",high = "red", 
+                        midpoint = .08)
+  
+
+ggsave(filename = "selection.png",plot = s,width = 12,height = 6)
 
 fstAnnotated[order(fstAnnotated$fst,decreasing = T),][1:20,]
