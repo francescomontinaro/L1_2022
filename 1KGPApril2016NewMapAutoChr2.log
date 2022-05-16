@@ -1,0 +1,18 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile 1KGPApril2016NewMapAutoChr2
+  --out 1KGPApril2016NewMapAutoChr2
+  --recode
+
+Hostname: francesco-latitudee6540
+Working directory: /home/francesco/Dropbox/Corsi/Antropologia_Molecolare_e_genetica_delle_dipendenzeII/Esercitazioni/git/L1_2022
+Start time: Mon May 16 10:14:37 2022
+
+Random number seed: 1652688877
+15906 MB RAM detected; reserving 7953 MB for main workspace.
+200166 variants loaded from .bim file.
+2318 people (0 males, 0 females, 2318 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 1KGPApril2016NewMapAutoChr2.nosex .
+Error: Invalid header bytes in .bed file.
+
+End time: Mon May 16 10:14:37 2022
